@@ -49,6 +49,7 @@ h2, h3, h4 {
 .container-main {
     max-width: 980px;
     display: flex;
+    justify-content: space-around;
     margin: 0 auto;
     text-align: left;
     padding: 10px;
@@ -64,10 +65,11 @@ h2, h3, h4 {
     padding: 10px;
     margin: 10px;
     color: white;
+    text-align: center;
 }
 
 .box .button {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .hero {
@@ -113,5 +115,23 @@ h2, h3, h4 {
     width: 300px;
     border: 1px solid rgb(202, 203, 206);
     text-align: center;
+    padding: 10px;
+}
+
+.row-orizontal {
+    width: 980px;
+    border: 1px solid rgb(202, 203, 206);
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.box-orizontal {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 1px solid rgb(202, 203, 206) ;
+    padding: 30px;
 }
 

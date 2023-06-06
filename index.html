@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dropbox</title>
 </head>
+
 <body>
     <header>
-        
+
         <!--Contenitori che racchiudono logo e pulsanti-->
-        
+
         <div class="container">
             <div class="logo">
                 <img src="img/logo-small.png" alt="logo">
@@ -30,28 +32,28 @@
             <a href="#">Accedi</a>
             <div class="button"><a href="#">Inizia</a></div>
         </div>
-        
+
     </header>
-    
+
     <main>
-        
+
         <!--Sezione hero-->
-        
+
         <section class="hero">
-            
+
             <!--Contenitori principali che racchiudono elementi della sezione hero-->
-            
+
             <div class="container-main">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
-            
+
             <div class="container-main">
-                
+
                 <!--Box che contengono elementi del contenitore principale-->
-                
+
                 <div class="box">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori
-                        sono accessibili dallo stesso posto. Dropbox Business è più 
+                        sono accessibili dallo stesso posto. Dropbox Business è più
                         di uno spazio di archiviazione sicuro: è un modo intelligente
                         e integrato per ottimizzare il flusso di lavoro esistente.
                     </p>
@@ -59,57 +61,134 @@
                     <p>Annulla in quasiasi momento</p>
                     <i class="fa-solid fa-arrow-down"></i>
                 </div>
-                
+
                 <div class="box-image">
                     <img class="image-section-hero" src="img/jumbo.png" alt="image-section-hero">
                 </div>
 
             </div>
-            
+
         </section>
 
+        <!--Seconda sezione-->
+
         <section>
-            
+
             <div class="container-main">
                 <h2>Trova il piano business che fa per te</h2>
             </div>
-                
+
             <div class="container-main">
                 <span><input type="radio">Fatturazione mensile</span>
                 <span><input type="radio">Fatturazione annuale</span>
             </div>
-            
+
+            <!--Contenitore elementi colonne-->
+
             <div class="container-main">
-                    
-                    <div class="column">
-                            <div class="row">
-                                <span><i class="fa-solid fa-user"></i>Singolo</span>
-                            </div>
-                        <h3>Professional</h3>
-                        <div>€12,00</div>
-                        <div>/mese</div>
-                        <ul>
-                            <li><i class="fa-solid fa-user"></i>1 utente</li>
-                            <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
-                            <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
-                
-                        <div class="button">Prova gratis per 30 giorni</div>
-                
-                        <div>oppure<a href="#">acquista ora</a></div>
-                        <hr>
-                        <h4>Punti Salienti del piano</h4>
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert</li>
-                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                        </ul>
+
+                <!--Prima colonna-->
+
+                <div class="column">
+                    <div class="row"><i class="fa-solid fa-user"></i>Singolo</div>
+                    <h3>Professional</h3>
+                    <div>€12,00</div>
+                    <div>/mese</div>
+                    <ul>
+                        <li><i class="fa-solid fa-user"></i>1 utente</li>
+                        <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file
+                            semplice e sicura</li>
+                    </ul>
+
+                    <div class="button">Prova gratis per 30 giorni</div>
+
+                    <div>oppure<a href="#">acquista ora</a></div>
+                    <hr>
+                    <h4>Punti Salienti del piano</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert</li>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                    </ul>
+                </div>
+
+                <!--Seconda colonna-->
+
+                <div class="column">
+                    <div class="row"><i class="fa-solid fa-users"></i>Team</div>
+                    <h3>Advanced</h3>
+                    <div>€18,00</div>
+                    <div>/utente/mese</div>
+                    <ul>
+                        <li><i class="fa-solid fa-users"></i>3 o più utenti</li>
+                        <li><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al
+                            sicuro tutti i file del tuo team</li>
+                    </ul>
+
+                    <div class="button">Prova gratis per 30 giorni</div>
+
+                    <div>oppure<a href="#">acquista ora</a></div>
+                    <hr>
+                    <h4>Punti Salienti del piano</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                        <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team</li>
+                        <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai tuoli</li>
+                    </ul>
+                </div>
+
+                <!--Terza colonna-->
+
+                <div class="column">
+                    <div class="row"><i class="fa-solid fa-building"></i>Azienda</span>
                     </div>
+                    <h3>Enterprise</h3>
+                    <div>Contattaci</div>
+                    <div>-</div>
+                    <ul>
+                        <li><i class="fa-solid fa-user"></i>10 o più utenti</li>
+                        <li><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda</li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli
+                            amministratori in una gestione su larga scala</li>
+                    </ul>
+
+                    <div class="button">Contattaci</div>
+
+                    <div>oppure<a href="#">acquista ora</a></div>
+                    <hr>
+                    <h4>Punti Salienti del piano</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                        <li><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                        <li><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                    </ul>
+                </div>
             </div>
-            
+
+            <!--Quarta colonna orizzontale-->
+
+            <div class="row-orizontal"><i class="fa-solid fa-building"></i>Team</div>
+            <div class="box-orizontal">
+                <div class="box">
+                    <h3>Enterprise</h3>
+                    <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su
+                        qualsiasi scala.</p>
+                </div>
+                <div class="box">
+                    <div class="button">Contatta l'ufficio vendite</div>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
-    
+
     <footer></footer>
 </body>
+
 </html>
