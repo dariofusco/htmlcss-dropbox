@@ -14,15 +14,31 @@ header {
     padding: 1rem;
 }
 
+section {
+    padding: 30px 0;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+}
+
 a {
     padding: 1rem;
     text-decoration: none;
     color: black;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2, h3, h4 {
+    line-height: 60px;
+}
+
 .logo {
     padding: 1rem;
-    font-size: 100%;
 }
 
 .container {
@@ -30,12 +46,72 @@ a {
     align-items: center;
 }
 
+.container-main {
+    max-width: 980px;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.container-main .button {
+    margin: 0;
+    display: inline-block
+}
+
 .button {
     background-color: rgb(0, 96, 249);
     padding: 10px;
     margin: 10px;
-}
-
-.button a {
     color: white;
 }
+
+.box .button {
+    margin: 20px 0;
+}
+
+.hero {
+    background-color: rgb(170, 203, 227);
+    text-align: center;
+    padding: 10px;
+}
+
+.box {
+    width: 327px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.box p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box i {
+    font-size: 2rem;
+}
+
+.box-image {
+    position: relative;
+    flex-grow: 1; 
+}
+
+.image-section-hero {
+    position: absolute;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.column {
+    width: 300px;
+    text-align: left;
+    line-height: 25px;
+    border: 1px solid rgb(202, 203, 206);
+}
+
+.row {
+    width: 300px;
+    border: 1px solid rgb(202, 203, 206);
+    text-align: center;
+}
+
