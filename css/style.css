@@ -11,10 +11,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 }
 
 section {
+    padding: 30px 0;
+}
+
+ul {
     padding: 30px 0;
 }
 
@@ -33,10 +36,16 @@ h1 {
     font-size: 4rem;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     line-height: 60px;
+    padding: 10px 0;
 }
 
+hr {
+
+}
 .logo {
     padding: 1rem;
 }
@@ -44,26 +53,33 @@ h2, h3, h4 {
 .container {
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
 }
 
 .container-main {
     max-width: 980px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0 auto;
     text-align: left;
     padding: 10px;
+    gap: 20px;
 }
 
 .container-main .button {
-    margin: 0;
     display: inline-block
 }
 
-.button {
+.button, .button-nav {
     background-color: rgb(0, 96, 249);
     padding: 10px;
-    margin: 10px;
+    margin: 30px 0;
     color: white;
     text-align: center;
 }
@@ -74,6 +90,7 @@ h2, h3, h4 {
     margin: 10px;
     color: black;
     text-align: center;
+    display: inline-block;
 }
 
 .box .button {
@@ -103,18 +120,25 @@ h2, h3, h4 {
 
 .box-image {
     position: relative;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .image-section-hero {
     position: absolute;
-    width: 100%;
+    width: 800px;
     padding-top: 30px;
 }
 
-img {
+.img-fit {
     width: 100%;
     padding: 10px 30px;
+    object-fit: cover;
+}
+
+.img-partner {
+    width: 100%;
+    object-fit: contain;
+    padding: 20px;
 }
 
 .column {
@@ -122,6 +146,8 @@ img {
     text-align: left;
     line-height: 25px;
     border: 1px solid rgb(202, 203, 206);
+    position: relative;
+    padding: 40px;
 }
 
 .row {
@@ -129,14 +155,18 @@ img {
     border: 1px solid rgb(202, 203, 206);
     text-align: center;
     padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .row-orizontal {
-    width: 980px;
+    width: 960px;
     border: 1px solid rgb(202, 203, 206);
     text-align: center;
     margin: 0 auto;
     padding: 10px;
+    position: absolute;
 }
 
 .box-orizontal {
@@ -144,7 +174,76 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    border: 1px solid rgb(202, 203, 206) ;
+    border: 1px solid rgb(202, 203, 206);
     padding: 30px;
+    position: relative;
 }
 
+.section-text {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section-square {
+    display: flex;
+    padding: 80px 0;
+}
+
+.img-square {
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.img-box-square {
+    width: 30%;
+    object-fit: contain;
+}
+
+.box-square {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(244, 244, 244);
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.green {
+    background-color: rgb(151, 204, 150);
+    border: 7px solid rgb(203, 229, 201);
+}
+
+.bordeaux {
+    background-color: rgb(90, 16, 39);
+}
+
+.light-blue {
+    background-color: rgb(0, 139, 197);
+}
+
+.red {
+    background-color: rgb(255, 37, 30) ;
+}
+
+.dark-red {
+    background-color: rgb(214, 20, 31);
+}
+
+.sky {
+    background-color: rgb(170, 203, 227) ;
+}
+
+.blue {
+    background-color: rgb(0, 38, 117) ;
+}
+
+.senape {
+    background-color: rgb(255, 209, 65);
+}
