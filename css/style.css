@@ -90,6 +90,10 @@ hr {
     text-align: center;
 }
 
+.button-nav a {
+    color:white;
+}
+
 .button-transparent {
     border: 1px solid black;
     padding: 10px;
@@ -258,3 +262,15 @@ hr {
     background-color: rgb(255, 209, 65);
 }
 
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .column {
+    border: none;
+}
+
+footer .container-main {
+    flex-wrap: nowrap;
+}
